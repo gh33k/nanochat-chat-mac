@@ -57,32 +57,38 @@ After you have trained your own NanoChat model using the [original nanochat repo
 
 ### Model Placement
 
-Place your downloaded model checkpoints in the following directory structure:
+Place your trained model checkpoints in the following directory structure:
 
 ```
-~/.cache/nanochat/chatsft_checkpoints/
-├── d20/                    # Example: d20 model (20 layers)
-│   ├── model_0.pt         # Model weights
-│   ├── meta.json          # Model metadata
-│   └── tokenizer.json     # Tokenizer configuration
-└── d32/                    # Example: d32 model (32 layers)
-    ├── model_0.pt
-    ├── meta.json
-    └── tokenizer.json
+~/.cache/nanochat/
+├── chatsft_checkpoints/          # Chat SFT (Supervised Fine-Tuning) models
+│   └── d20/                      # Example: d20 model (20 layers)
+│       ├── model_000650.pt      # Model weights (step 650)
+│       └── meta_000650.json     # Model metadata
+├── mid_checkpoints/              # Mid-training checkpoints
+│   └── d20/                      # Example: d20 model
+│       ├── model_000765.pt      # Model weights (step 765)
+│       ├── meta_000765.json     # Model metadata
+│       └── optim_000765.pt      # Optimizer state
+├── base_checkpoints/             # Base model checkpoints
+└── tokenizer/                    # Tokenizer files
+    ├── token_bytes.pt           # Token byte mappings
+    └── tokenizer.pkl            # Tokenizer configuration
 ```
 
 ### Model Directory Structure
 
-Each model should contain:
-- `model_*.pt` - PyTorch model weights
-- `meta.json` - Model configuration and metadata
-- `tokenizer.json` - Tokenizer configuration (if using custom tokenizer)
+Each model checkpoint contains:
+- `model_*.pt` - PyTorch model weights (with step number)
+- `meta_*.json` - Model configuration and metadata (with step number)
+- `optim_*.pt` - Optimizer state (for mid-training checkpoints)
 
 ### Example Model Paths
 
-- **d20 model**: `~/.cache/nanochat/chatsft_checkpoints/d20/`
-- **d32 model**: `~/.cache/nanochat/chatsft_checkpoints/d32/`
-- **Custom model**: `~/.cache/nanochat/chatsft_checkpoints/my_model/`
+- **Chat SFT d20 model**: `~/.cache/nanochat/chatsft_checkpoints/d20/`
+- **Mid-training d20 model**: `~/.cache/nanochat/mid_checkpoints/d20/`
+- **Base model**: `~/.cache/nanochat/base_checkpoints/`
+- **Tokenizer**: `~/.cache/nanochat/tokenizer/`
 
 ## Troubleshooting
 
@@ -91,6 +97,7 @@ If you get "Model not found" errors:
 1. Check that your model directory exists: `ls ~/.cache/nanochat/chatsft_checkpoints/`
 2. Verify the model files are present: `ls ~/.cache/nanochat/chatsft_checkpoints/d20/`
 3. Ensure you're using the correct model path in commands
+4. Check that tokenizer files exist: `ls ~/.cache/nanochat/tokenizer/`
 
 ### MPS Not Available
 If MPS acceleration isn't working:
