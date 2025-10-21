@@ -48,7 +48,7 @@ This chat interface is based on [nanochat](https://github.com/karpathy/nanochat)
 
 **Original nanochat**: The best ChatGPT that $100 can buy.
 
-**Mac improvements**: Built using [vibe coding](https://en.wikipedia.org/wiki/Vibe_coding) techniques with Mac MPS support and chat interface optimization.
+**Mac improvements**: Built using vibe coding techniques with Mac MPS support and chat interface optimization.
 
 ## Mac Improvements
 
