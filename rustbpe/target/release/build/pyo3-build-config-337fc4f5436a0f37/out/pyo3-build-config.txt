@@ -1,0 +1,11 @@
+implementation=CPython
+version=3.10
+shared=true
+abi3=false
+lib_name=python3.10
+lib_dir=/Users/persim/.local/share/uv/python/cpython-3.10.18-macos-aarch64-none/lib
+executable=/Users/persim/.cache/uv/builds-v0/.tmpUFGUp6/bin/python
+pointer_width=64
+build_flags=
+python_framework_prefix=
+suppress_build_script_link_lines=false

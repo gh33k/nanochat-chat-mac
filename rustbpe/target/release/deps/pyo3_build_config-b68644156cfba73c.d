@@ -1,0 +1,14 @@
+/Users/persim/Documents/NANOCHAT/nanochat-chat-mac/rustbpe/target/release/deps/libpyo3_build_config-b68644156cfba73c.rmeta: /Users/persim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.23.5/src/lib.rs /Users/persim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.23.5/src/errors.rs /Users/persim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.23.5/src/impl_.rs /Users/persim/Documents/NANOCHAT/nanochat-chat-mac/rustbpe/target/release/build/pyo3-build-config-337fc4f5436a0f37/out/pyo3-build-config-file.txt /Users/persim/Documents/NANOCHAT/nanochat-chat-mac/rustbpe/target/release/build/pyo3-build-config-337fc4f5436a0f37/out/pyo3-build-config.txt
+
+/Users/persim/Documents/NANOCHAT/nanochat-chat-mac/rustbpe/target/release/deps/libpyo3_build_config-b68644156cfba73c.rlib: /Users/persim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.23.5/src/lib.rs /Users/persim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.23.5/src/errors.rs /Users/persim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.23.5/src/impl_.rs /Users/persim/Documents/NANOCHAT/nanochat-chat-mac/rustbpe/target/release/build/pyo3-build-config-337fc4f5436a0f37/out/pyo3-build-config-file.txt /Users/persim/Documents/NANOCHAT/nanochat-chat-mac/rustbpe/target/release/build/pyo3-build-config-337fc4f5436a0f37/out/pyo3-build-config.txt
+
+/Users/persim/Documents/NANOCHAT/nanochat-chat-mac/rustbpe/target/release/deps/pyo3_build_config-b68644156cfba73c.d: /Users/persim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.23.5/src/lib.rs /Users/persim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.23.5/src/errors.rs /Users/persim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.23.5/src/impl_.rs /Users/persim/Documents/NANOCHAT/nanochat-chat-mac/rustbpe/target/release/build/pyo3-build-config-337fc4f5436a0f37/out/pyo3-build-config-file.txt /Users/persim/Documents/NANOCHAT/nanochat-chat-mac/rustbpe/target/release/build/pyo3-build-config-337fc4f5436a0f37/out/pyo3-build-config.txt
+
+/Users/persim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.23.5/src/lib.rs:
+/Users/persim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.23.5/src/errors.rs:
+/Users/persim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.23.5/src/impl_.rs:
+/Users/persim/Documents/NANOCHAT/nanochat-chat-mac/rustbpe/target/release/build/pyo3-build-config-337fc4f5436a0f37/out/pyo3-build-config-file.txt:
+/Users/persim/Documents/NANOCHAT/nanochat-chat-mac/rustbpe/target/release/build/pyo3-build-config-337fc4f5436a0f37/out/pyo3-build-config.txt:
+
+# env-dep:CARGO_PKG_VERSION=0.23.5
+# env-dep:OUT_DIR=/Users/persim/Documents/NANOCHAT/nanochat-chat-mac/rustbpe/target/release/build/pyo3-build-config-337fc4f5436a0f37/out
