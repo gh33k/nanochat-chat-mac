@@ -40,17 +40,20 @@ python generate_cpu.py --model-dir ~/.cache/nanochat/chatsft_checkpoints/d20 --p
 
 - **Mac with Apple Silicon** (M1/M2/M3) for MPS acceleration
 - **Python 3.10+**
-- **NanoChat model checkpoint** (see Model Setup below)
+- **Trained NanoChat model** (you need to train your own - see Model Setup below)
 
 ## Model Setup
 
-### Download Pre-trained Models
+### Using Your Trained Models
 
-NanoChat provides several pre-trained models. You can download them from:
+After you have trained your own NanoChat model using the [original nanochat repository](https://github.com/karpathy/nanochat), you can use it with this chat interface.
 
-1. **Official NanoChat Models**: Visit [nanochat.karpathy.ai](https://nanochat.karpathy.ai/) for available models
-2. **GitHub Releases**: Check the [original nanochat repository](https://github.com/karpathy/nanochat) for model downloads
-3. **Hugging Face**: Some models may be available on Hugging Face Hub
+**Note**: Pre-trained models may not be publicly available. You'll need to train your own model first using the full nanochat training pipeline.
+
+**Training Resources**:
+- **Full Training Guide**: See the [original nanochat repository](https://github.com/karpathy/nanochat) for complete training instructions
+- **Training Scripts**: Use `speedrun.sh` or individual training scripts in the original repo
+- **Hardware Requirements**: Training typically requires significant GPU resources
 
 ### Model Placement
 
