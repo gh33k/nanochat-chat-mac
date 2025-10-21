@@ -48,6 +48,8 @@ This chat interface is based on [nanochat](https://github.com/karpathy/nanochat)
 
 **Original nanochat**: The best ChatGPT that $100 can buy.
 
+**Mac improvements**: Enhanced with the help of [Vibed](https://vibed.ai) AI assistant for Mac MPS support and chat interface optimization.
+
 ## Mac Improvements
 
 - **MPS Device Detection**: Automatically uses Apple Silicon GPU when available
