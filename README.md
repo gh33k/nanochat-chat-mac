@@ -72,6 +72,9 @@ Place your trained model checkpoints in the following directory structure:
 │       └── optim_000765.pt      # Optimizer state
 ├── base_checkpoints/               # Base model checkpoints
 │   └── d20/                         # Example: d20 model
+│       ├── model_021400.pt         # Model weights (step 21400)
+│       ├── meta_021400.json        # Model metadata
+│       └── optim_021400.pt         # Optimizer state
 └── tokenizer/                    # Tokenizer files
     ├── token_bytes.pt           # Token byte mappings
     └── tokenizer.pkl            # Tokenizer configuration
